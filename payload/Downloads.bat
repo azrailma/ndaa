@@ -2,7 +2,7 @@
 curl -L -o login.py https://raw.githubusercontent.com/azrailma/ndaa/rustdesk-disala/payload/login.py
 curl -L -o loop.bat https://raw.githubusercontent.com/azrailma/ndaa/rustdesk-disala/payload/loop.bat
 curl -L -o show.bat https://raw.githubusercontent.com/azrailma/ndaa/rustdesk-disala/payload/show.bat
-certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.1/rustdesk-1.2.1-x86_64.exe" rustdesk.exe
+certutil -urlcache -split -f "https://github.com/rustdesk/rustdesk/releases/download/1.2.3/rustdesk-1.2.3-x86_64.exe" rustdesk.exe
 pip install pyautogui --quiet
 pip install psutil --quiet
 curl -s -L -o time.py https://raw.githubusercontent.com/azrailma/ndaa/rustdesk-disala/payload/timelimit.py
