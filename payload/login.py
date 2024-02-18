@@ -35,7 +35,7 @@ for x, y, duration in actions:
     if (x, y) in [(291, 250), (310, 338)]:
         # For "first fill" and "second fill" coordinates, type the desired text
         pag.keyDown('D')  # Press the "D" key
-        text_to_type = "123qwE123"
+        text_to_type = "Disalardp1"
         pag.typewrite(text_to_type)
 
 def save_echo_to_batch(file_path, echo_text):
